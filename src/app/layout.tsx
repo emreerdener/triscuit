@@ -10,9 +10,9 @@ export const metadata: Metadata = {
   description: "Taking care of our little guy.",
   metadataBase: new URL("https://triscuit.vercel.app/"),
   icons: {
-    icon: "/favicon.svg", // Default icon
-    shortcut: "/favicon.ico", // for .ico formats
-    apple: "/apple-touch-icon.png", // for apple-touch-icon
+    icon: "/favicons/favicon.svg", // Default icon
+    shortcut: "/favicons/favicon.ico", // for .ico formats
+    apple: "/favicons/apple-touch-icon.png", // for apple-touch-icon
   },
   openGraph: {
     title: "Triscuit",
