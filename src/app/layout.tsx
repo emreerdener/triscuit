@@ -8,7 +8,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Triscuit",
   description: "Taking care of our little guy.",
-  metadataBase: new URL("#"),
+  metadataBase: new URL("/"),
   icons: {
     icon: "/favicon.svg", // Default icon
     shortcut: "/favicon.ico", // for .ico formats
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Triscuit",
     description: "Taking care of our little guy.",
-    url: "#",
+    url: "/",
     siteName: "Triscuit",
     images: [
       {
